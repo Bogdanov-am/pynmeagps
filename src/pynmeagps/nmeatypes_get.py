@@ -1199,4 +1199,22 @@ NMEA_PAYLOADS_GET = {
     # Dummy message for error testing
     # *********************************************
     "FOO": {"spam": "Z2", "eggs": "Y1"},
+    "AZM3": {
+        "status": IN,  # "VHD"
+        "addr": IN,
+        "rq_code": IN,  # mmddyy
+        "rs_code": IN,
+        "msr_dB": DE,
+        "p_time_s": DE,
+        "s_range_m": DE,
+        "p_range_m": DE,
+        "r_dpt_m": DE,
+        "a_deg": DE,
+        "e_deg": DE,
+        "lprs_mBar": DE,
+        "ltmp_C": DE,  # 'M'
+        "lhdn_deg": DE,
+        "lptc_deg": DE,
+        "lrol_deg": DE,
+    },
 }

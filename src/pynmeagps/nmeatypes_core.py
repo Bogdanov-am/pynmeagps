@@ -302,4 +302,5 @@ NMEA_MSGIDS_PROP = {
     # Dummy message for testing only
     # ***************************************************************
     "FOO": "Dummy message",
+    "AZM3": "Статус пеленгационной станции",
 }
