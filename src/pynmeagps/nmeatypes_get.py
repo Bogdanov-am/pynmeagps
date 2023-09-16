@@ -1200,15 +1200,15 @@ NMEA_PAYLOADS_GET = {
     # *********************************************
     "FOO": {"spam": "Z2", "eggs": "Y1"},
     "AZM1": {
-        "addrMask": IN,  # "VHD"
+        "addrMask": IN,
         "sty_PSU": DE,
-        "soundSpeed_mps": DE,  # mmddyy
+        "soundSpeed_mps": DE,
         "max_dist_m": IN,
     },
     "AZM3": {
-        "status": IN,  # "VHD"
+        "status": IN, 
         "addr": IN,
-        "rq_code": IN,  # mmddyy
+        "rq_code": IN,  
         "rs_code": IN,
         "msr_dB": DE,
         "p_time_s": DE,
@@ -1218,7 +1218,7 @@ NMEA_PAYLOADS_GET = {
         "a_deg": DE,
         "e_deg": DE,
         "lprs_mBar": DE,
-        "ltmp_C": DE,  # 'M'
+        "ltmp_C": DE, 
         "lhdn_deg": DE,
         "lptc_deg": DE,
         "lrol_deg": DE,
