@@ -1199,6 +1199,12 @@ NMEA_PAYLOADS_GET = {
     # Dummy message for error testing
     # *********************************************
     "FOO": {"spam": "Z2", "eggs": "Y1"},
+    "AZM1": {
+        "addrMask": IN,  # "VHD"
+        "sty_PSU": DE,
+        "soundSpeed_mps": DE,  # mmddyy
+        "max_dist_m": IN,
+    },
     "AZM3": {
         "status": IN,  # "VHD"
         "addr": IN,
